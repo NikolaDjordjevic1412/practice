@@ -20,7 +20,7 @@ function App() {
 
 
   return (
-    <div style={{ background: 'red' }} className="App">
+    <div className="App">
       <button onClick={()=>{ dispatch(testAction(testParam + 2)); apiResult['results'].map( map => console.log(map , 'hm'))  }}>+</button>
       <p style={{color:'black'}}> djole </p>
       {apiResult && <div>API</div> }
